@@ -56,13 +56,13 @@ git clone https://github.com/Precixphantom/weather-backend.git
 cd weather-backend
 ```
 
-1. **Install dependencies**
+2. **Install dependencies**
 
 ```bash
 npm install
 ```
 
-1. **Configure environment variables**
+3. **Configure environment variables**
 
 Create a `.env` file in the root directory:
 
@@ -71,7 +71,7 @@ WEATHER_API_KEY=your_openweathermap_api_key
 PORT=3000
 ```
 
-1. **Start the development server**
+4. **Start the development server**
 
 ```bash
 npm run dev
