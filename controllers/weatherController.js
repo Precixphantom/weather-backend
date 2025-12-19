@@ -6,7 +6,7 @@ const getWeather = async (req, res) => {
         const city = req.query.city;
 
         if (!city) {
-            res.status(400).json({error: "A City is required"});
+            return res.status(400).json({error: "A City is required"});
         };
 
         const weatherData = await weather.getWeatherData(city);
